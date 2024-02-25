@@ -8,7 +8,7 @@
       content="No soy un robot, soy un desarrollador Front-End apasionado por el diseño web y la programación."
     />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/ico+xml" href="images/1.jpg" />
+    <link rel="icon" type="image/ico+xml" href="images/perfil/1.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
 
@@ -74,7 +74,7 @@
       >
         <img
           class="profile-image size-20 rounded-full size-adjusted"
-          src="images/1.jpg"
+          src="images/perfil/1.jpg"
           alt="Imagen de perfil">
 
         <article class="mt-8 mb-8">
@@ -300,7 +300,7 @@
 
 
 
-
+<!-- ***** PROYECTOS ***** -->
 
       <section
         id="proyectos"
@@ -335,16 +335,24 @@
           <li
             class="col-span-4 grid grid-cols-6 gap-5 place-items-center group/item"
           >
-            <article
-              class="col-span-6 md:col-span-3 relative rounded-xl overflow-hidden bg-slate-800"
-            >
-              <a href="https://ian9franco.github.io/Calculadora/" target="_blank"
-                ><img
-                  class="transition-transform duration-300 w-full h-full object-cover ease-in-out group-hover/item:scale-110"
-                  src="images/calculadora.png"
-                  alt="Proyecto: Smile Notes"
-              /></a>
-            </article>
+                          
+              <article class="col-span-6 md:col-span-3 relative rounded-xl overflow-hidden bg-slate-800">
+                <a href="https://ian9franco.github.io/Calculadora/" target="_blank">
+                  <video
+                    id="videoCalculadora"
+                    class="transition-transform duration-300 w-full h-full object-cover ease-in-out group-hover/item:scale-110"
+                    muted
+                    autoplay
+                    disablepictureinpicture
+                    loop  <!-- Agrega el atributo loop aquí -->
+                  >
+                    <source src="images/proyectos/calculadora.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                  </video>
+                </a>
+              </article>
+
+          
             <div class="col-span-6 md:col-span-3">
               <article class="">
                 <h2
@@ -462,207 +470,91 @@
               </div>
             </div>
           </li>
-          <!-- 
+
           <li
             class="col-span-4 grid grid-cols-6 gap-5 place-items-center group/item"
           >
-            <article
-              class="col-span-6 md:col-span-3 relative rounded-xl overflow-hidden bg-slate-800"
-            >
-              <a href="https://animes-hub.vercel.app/" target="_blank"
-                ><img
-                  class="transition-transform duration-300 w-full h-full object-cover ease-in-out group-hover/item:scale-110"
-                  src="images/anime-app.GQkFs5ET.png"
-                  alt="Proyecto: Anime Hub"
-              /></a>
-            </article>
-            <div class="col-span-6 md:col-span-3">
-              <article class="">
-                <h2
-                  class="text-sky-300 text-2xl md:text-3xl font-extrabold mb-4"
-                >
-                  Anime Hub
-                </h2>
-                <p class="text-xl md:text-lg text-gray-300/90 text-pretty">
-                  Busca y guarda tus animes favoritos de forma fácil y rápida.
-                </p>
-              </article>
-              <ul class="flex gap-2 flex-wrap items-center my-4">
-                <li class="p-1.5 bg-white/30 rounded-full flex items-center">
-                  <svg
-                    class="size-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="48.000000pt"
-                    height="48.000000pt"
-                    viewBox="0 0 48.000000 48.000000"
-                    preserveAspectRatio="xMidYMid meet"
+                          
+              <article class="col-span-6 md:col-span-3 relative rounded-xl overflow-hidden bg-slate-800">
+                <a href="https://ian9franco.github.io/Calculadora/" target="_blank">
+                  <video
+                    id="videoCalculadora"
+                    class="transition-transform duration-300 w-full h-full object-cover ease-in-out group-hover/item:scale-110"
+                    muted
+                    autoplay
+                    disablepictureinpicture
+                    loop  <!-- Agrega el atributo loop aquí -->
                   >
-                    <g
-                      transform="translate(0.000000,48.000000) scale(0.100000,-0.100000)"
-                      fill="#FFF"
-                      stroke="none"
-                    >
-                      <path
-                        d="M160 467 c-49 -16 -133 -102 -148 -153 -28 -94 -8 -169 63 -239 101
--102 229 -102 330 0 102 101 102 229 0 330 -70 71 -152 91 -245 62z m102 -232
-c74 -94 91 -125 68 -125 -5 0 -40 39 -77 86 l-68 87 -5 -69 c-4 -52 -9 -69
--20 -69 -12 0 -16 17 -18 84 -2 46 0 91 3 98 11 29 42 5 117 -92z m74 90 c8
--21 -4 -67 -16 -60 -13 8 -13 75 0 75 6 0 13 -7 16 -15z"
-                      ></path>
-                    </g>
-                  </svg>
-                </li>
-                <li class="p-1.5 bg-blue-600/30 rounded-full flex items-center">
-                  <svg
-                    class="size-5"
-                    width="40"
-                    height="24"
-                    viewBox="0 0 40 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M20.0004 0C14.6666 0 11.3338 2.66684 9.9998 8.00053C12.0001 5.33368 14.3335 4.33382 17 5.00013C18.5213 5.38021 19.6093 6.48416 20.8124 7.7064C22.7735 9.69667 25.0434 12 30.0002 12C35.3332 12 38.6667 9.33316 40 4.00026C38.0005 6.6671 35.6671 7.66697 33.0006 6.99987C31.4785 6.61979 30.3905 5.51584 29.1874 4.29439C27.2263 2.30254 24.9572 0 20.0004 0ZM9.9998 12C4.66678 12 1.33325 14.6668 0 20.0005C2.00027 17.3337 4.33367 16.3338 6.99939 17.0001C8.52155 17.3802 9.60947 18.4842 10.8126 19.7064C12.7737 21.6967 15.0428 24 20.0004 24C25.3334 24 28.6669 21.3339 30.0002 16.0003C27.9999 18.6671 25.6665 19.667 23 19.0007C21.4787 18.6198 20.3907 17.5158 19.1876 16.2944C17.2265 14.3041 14.9566 12 9.9998 12Z"
-                      fill="#38BDF8"
-                    ></path>
-                  </svg>
-                </li>
-              </ul>
-              <div class="flex w-full gap-4">
-                <a
-                  href="https://animes-hub.vercel.app/"
-                  target="_blank"
-                  class="flex flex-row-reverse items-center gap-2 px-4 py-2 bg-zinc-300 text-black text-lg md:text-xl font-bold rounded-lg group/hover"
-                  ><span
-                    ><svg
-                      class="size-5 duration-300 ease-in-out transition group-hover/hover:scale-110"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      stroke-width="2"
-                      stroke="currentColor"
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                      <path
-                        d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"
-                      ></path>
-                      <path d="M11 13l9 -9"></path>
-                      <path d="M15 4h5v5"></path></svg
-                  ></span>
-                  Live </a
-                ><a
-                  href="https://github.com/MiguelAJM/animes-hub"
-                  target="_blank"
-                  class="flex flex-row-reverse items-center gap-2 px-4 py-2 bg-zinc-300 text-black text-lg md:text-xl font-bold rounded-lg group/hover"
-                  ><span
-                    ><svg
-                      class="size-5 duration-300 ease-in-out transition group-hover/hover:scale-110"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      stroke-width="2"
-                      stroke="currentColor"
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                      <path d="M9 15l6 -6"></path>
-                      <path
-                        d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464"
-                      ></path>
-                      <path
-                        d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463"
-                      ></path></svg
-                  ></span>
-                  Code
+                    <source src="images/proyectos/tormentica.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                  </video>
                 </a>
-              </div>
-            </div>
-          </li>
-          <li
-            class="col-span-4 grid grid-cols-6 gap-5 place-items-center group/item"
-          >
-            <article
-              class="col-span-6 md:col-span-3 relative rounded-xl overflow-hidden bg-slate-800"
-            >
-              <a href="https://rapid-cart.vercel.app/" target="_blank"
-                ><img
-                  class="transition-transform duration-300 w-full h-full object-cover ease-in-out group-hover/item:scale-110"
-                  src="images/rapid-cart.EERbRN5I.png"
-                  alt="Proyecto: Rapid Cart"
-              /></a>
-            </article>
+              </article>
+
+          
             <div class="col-span-6 md:col-span-3">
               <article class="">
                 <h2
                   class="text-sky-300 text-2xl md:text-3xl font-extrabold mb-4"
                 >
-                  Rapid Cart
+                  Tormentica
                 </h2>
                 <p class="text-xl md:text-lg text-gray-300/90 text-pretty">
-                  Compra artículos de manera rápida y sencilla.
+                  Busca tu ubicación y verifica las condiciones climáticas antes de decidir salir.
                 </p>
               </article>
               <ul class="flex gap-2 flex-wrap items-center my-4">
                 <li class="p-1.5 bg-blue-500/30 rounded-full flex items-center">
                   <svg
-                    class="size-5"
+                    class="size-5.5"
                     viewBox="0 0 256 228"
-                    width="256"
-                    height="228"
+                    width="2"
+                    height="2"
                     xmlns="http://www.w3.org/2000/svg"
-                    preserveAspectRatio="xMidYMid"
-                  >
-                    <path
-                      d="M210.483 73.824a171.49 171.49 0 0 0-8.24-2.597c.465-1.9.893-3.777 1.273-5.621 6.238-30.281 2.16-54.676-11.769-62.708-13.355-7.7-35.196.329-57.254 19.526a171.23 171.23 0 0 0-6.375 5.848 155.866 155.866 0 0 0-4.241-3.917C100.759 3.829 77.587-4.822 63.673 3.233 50.33 10.957 46.379 33.89 51.995 62.588a170.974 170.974 0 0 0 1.892 8.48c-3.28.932-6.445 1.924-9.474 2.98C17.309 83.498 0 98.307 0 113.668c0 15.865 18.582 31.778 46.812 41.427a145.52 145.52 0 0 0 6.921 2.165 167.467 167.467 0 0 0-2.01 9.138c-5.354 28.2-1.173 50.591 12.134 58.266 13.744 7.926 36.812-.22 59.273-19.855a145.567 145.567 0 0 0 5.342-4.923 168.064 168.064 0 0 0 6.92 6.314c21.758 18.722 43.246 26.282 56.54 18.586 13.731-7.949 18.194-32.003 12.4-61.268a145.016 145.016 0 0 0-1.535-6.842c1.62-.48 3.21-.974 4.76-1.488 29.348-9.723 48.443-25.443 48.443-41.52 0-15.417-17.868-30.326-45.517-39.844Zm-6.365 70.984c-1.4.463-2.836.91-4.3 1.345-3.24-10.257-7.612-21.163-12.963-32.432 5.106-11 9.31-21.767 12.459-31.957 2.619.758 5.16 1.557 7.61 2.4 23.69 8.156 38.14 20.213 38.14 29.504 0 9.896-15.606 22.743-40.946 31.14Zm-10.514 20.834c2.562 12.94 2.927 24.64 1.23 33.787-1.524 8.219-4.59 13.698-8.382 15.893-8.067 4.67-25.32-1.4-43.927-17.412a156.726 156.726 0 0 1-6.437-5.87c7.214-7.889 14.423-17.06 21.459-27.246 12.376-1.098 24.068-2.894 34.671-5.345.522 2.107.986 4.173 1.386 6.193ZM87.276 214.515c-7.882 2.783-14.16 2.863-17.955.675-8.075-4.657-11.432-22.636-6.853-46.752a156.923 156.923 0 0 1 1.869-8.499c10.486 2.32 22.093 3.988 34.498 4.994 7.084 9.967 14.501 19.128 21.976 27.15a134.668 134.668 0 0 1-4.877 4.492c-9.933 8.682-19.886 14.842-28.658 17.94ZM50.35 144.747c-12.483-4.267-22.792-9.812-29.858-15.863-6.35-5.437-9.555-10.836-9.555-15.216 0-9.322 13.897-21.212 37.076-29.293 2.813-.98 5.757-1.905 8.812-2.773 3.204 10.42 7.406 21.315 12.477 32.332-5.137 11.18-9.399 22.249-12.634 32.792a134.718 134.718 0 0 1-6.318-1.979Zm12.378-84.26c-4.811-24.587-1.616-43.134 6.425-47.789 8.564-4.958 27.502 2.111 47.463 19.835a144.318 144.318 0 0 1 3.841 3.545c-7.438 7.987-14.787 17.08-21.808 26.988-12.04 1.116-23.565 2.908-34.161 5.309a160.342 160.342 0 0 1-1.76-7.887Zm110.427 27.268a347.8 347.8 0 0 0-7.785-12.803c8.168 1.033 15.994 2.404 23.343 4.08-2.206 7.072-4.956 14.465-8.193 22.045a381.151 381.151 0 0 0-7.365-13.322Zm-45.032-43.861c5.044 5.465 10.096 11.566 15.065 18.186a322.04 322.04 0 0 0-30.257-.006c4.974-6.559 10.069-12.652 15.192-18.18ZM82.802 87.83a323.167 323.167 0 0 0-7.227 13.238c-3.184-7.553-5.909-14.98-8.134-22.152 7.304-1.634 15.093-2.97 23.209-3.984a321.524 321.524 0 0 0-7.848 12.897Zm8.081 65.352c-8.385-.936-16.291-2.203-23.593-3.793 2.26-7.3 5.045-14.885 8.298-22.6a321.187 321.187 0 0 0 7.257 13.246c2.594 4.48 5.28 8.868 8.038 13.147Zm37.542 31.03c-5.184-5.592-10.354-11.779-15.403-18.433 4.902.192 9.899.29 14.978.29 5.218 0 10.376-.117 15.453-.343-4.985 6.774-10.018 12.97-15.028 18.486Zm52.198-57.817c3.422 7.8 6.306 15.345 8.596 22.52-7.422 1.694-15.436 3.058-23.88 4.071a382.417 382.417 0 0 0 7.859-13.026 347.403 347.403 0 0 0 7.425-13.565Zm-16.898 8.101a358.557 358.557 0 0 1-12.281 19.815 329.4 329.4 0 0 1-23.444.823c-7.967 0-15.716-.248-23.178-.732a310.202 310.202 0 0 1-12.513-19.846h.001a307.41 307.41 0 0 1-10.923-20.627 310.278 310.278 0 0 1 10.89-20.637l-.001.001a307.318 307.318 0 0 1 12.413-19.761c7.613-.576 15.42-.876 23.31-.876H128c7.926 0 15.743.303 23.354.883a329.357 329.357 0 0 1 12.335 19.695 358.489 358.489 0 0 1 11.036 20.54 329.472 329.472 0 0 1-11 20.722Zm22.56-122.124c8.572 4.944 11.906 24.881 6.52 51.026-.344 1.668-.73 3.367-1.15 5.09-10.622-2.452-22.155-4.275-34.23-5.408-7.034-10.017-14.323-19.124-21.64-27.008a160.789 160.789 0 0 1 5.888-5.4c18.9-16.447 36.564-22.941 44.612-18.3ZM128 90.808c12.625 0 22.86 10.235 22.86 22.86s-10.235 22.86-22.86 22.86-22.86-10.235-22.86-22.86 10.235-22.86 22.86-22.86Z"
-                      fill="#00D8FF"
-                    ></path>
+                    preserveAspectRatio="xMidYMid">
+                    <img src="images/iconos/css-3.png" alt="react logo" width="25" height="30">
+
                   </svg>
                 </li>
-                <li class="p-1.5 bg-pink-500/30 rounded-full flex items-center">
+                <li
+                  class="p-1.5 bg-white/50 text-black rounded-full flex items-center"
+                >
                   <svg
-                    class="size-5"
-                    viewBox="0 0 256 384"
-                    width="256"
-                    height="384"
+                    class="size-5.5"
                     xmlns="http://www.w3.org/2000/svg"
-                    preserveAspectRatio="xMidYMid"
-                  >
-                    <path
-                      fill="#fff"
-                      d="M0 0h256v128H128L0 0Zm0 128h128l128 128H128v128L0 256V128Z"
-                    ></path>
+                    width="2"
+                    height="2"
+                    viewBox="0 0 400 400"
+                    preserveAspectRatio="xMidYMid">
+                    <g
+                      transform="translate(0.000000,400.000000) scale(0.100000,-0.100000)"
+                      fill="currentColor"
+                      stroke="none">
+                      <img src="images/iconos/html-5.png" alt="react logo" width="25" height="30">
+                    </g>
                   </svg>
                 </li>
-                <li class="p-1.5 bg-blue-600/30 rounded-full flex items-center">
-                  <svg
-                    class="size-5"
-                    width="40"
-                    height="24"
-                    viewBox="0 0 40 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M20.0004 0C14.6666 0 11.3338 2.66684 9.9998 8.00053C12.0001 5.33368 14.3335 4.33382 17 5.00013C18.5213 5.38021 19.6093 6.48416 20.8124 7.7064C22.7735 9.69667 25.0434 12 30.0002 12C35.3332 12 38.6667 9.33316 40 4.00026C38.0005 6.6671 35.6671 7.66697 33.0006 6.99987C31.4785 6.61979 30.3905 5.51584 29.1874 4.29439C27.2263 2.30254 24.9572 0 20.0004 0ZM9.9998 12C4.66678 12 1.33325 14.6668 0 20.0005C2.00027 17.3337 4.33367 16.3338 6.99939 17.0001C8.52155 17.3802 9.60947 18.4842 10.8126 19.7064C12.7737 21.6967 15.0428 24 20.0004 24C25.3334 24 28.6669 21.3339 30.0002 16.0003C27.9999 18.6671 25.6665 19.667 23 19.0007C21.4787 18.6198 20.3907 17.5158 19.1876 16.2944C17.2265 14.3041 14.9566 12 9.9998 12Z"
-                      fill="#38BDF8"
-                    ></path>
-                  </svg>
+                <li
+                  class="p-1.5 bg-yellow-500/30 rounded-full flex items-center justify-center"
+                >
+                <svg
+                class="size-5.5"
+                viewBox="0 0 256 228"
+                width="2"
+                height="2"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid">
+                
+                
+                
+                <img src="images/iconos/javascript-logo.png" alt="js logo" width="25" height="30">
+
+              </svg>
                 </li>
-              </ul>
+              </ul> 
               <div class="flex w-full gap-4">
                 <a
-                  href="https://rapid-cart.vercel.app/"
+                  href="https://ian9franco.github.io/Calculadora/"
                   target="_blank"
                   class="flex flex-row-reverse items-center gap-2 px-4 py-2 bg-zinc-300 text-black text-lg md:text-xl font-bold rounded-lg group/hover"
                   ><span
@@ -687,7 +579,7 @@ c74 -94 91 -125 68 -125 -5 0 -40 39 -77 86 l-68 87 -5 -69 c-4 -52 -9 -69
                   ></span>
                   Live </a
                 ><a
-                  href="https://github.com/MiguelAJM/rapid-cart"
+                  href="https://ian9franco.github.io/tormentica/#/current-location"
                   target="_blank"
                   class="flex flex-row-reverse items-center gap-2 px-4 py-2 bg-zinc-300 text-black text-lg md:text-xl font-bold rounded-lg group/hover"
                   ><span
@@ -717,13 +609,9 @@ c74 -94 91 -125 68 -125 -5 0 -40 39 -77 86 l-68 87 -5 -69 c-4 -52 -9 -69
               </div>
             </div>
           </li>
+
         </ul>
       </section>
-
-
-
-          -->
-
 
       <section
         id="habilidades"
@@ -906,10 +794,10 @@ c74 -94 91 -125 68 -125 -5 0 -40 39 -77 86 l-68 87 -5 -69 c-4 -52 -9 -69
 
       
     
-<path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
+            <path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
 
 
-    </main>
+   </main>
 
 
 
@@ -950,12 +838,11 @@ c74 -94 91 -125 68 -125 -5 0 -40 39 -77 86 l-68 87 -5 -69 c-4 -52 -9 -69
         <div
           class="grid grid-cols-8 flex-wrap md:flex-nowrap items-center gap-3"
         >
-          <article
-            class="col-span-8 md:col-span-6 w-full px-4 py-2 border-2 bg-slate-900 border-slate-700 rounded-xl overflow-hidden ">
-                <label for="email"></label>
-                
-                <input readonly="" id="email" class="text-lg bg-transparent w-full" value="ianfranco9@live.com">
-            </article>
+        <article class="col-span-8 md:col-span-6 w-full px-4 py-2 border-2 bg-slate-900 border-slate-700 rounded-xl overflow-hidden">
+          <label for="email">Correo electrónico:</label>
+          <input readonly="readonly" id="email" class="text-lg bg-transparent w-full" value="ianfranco9@live.com">
+        </article>
+        
           <a
             href="mailto:ianfranco9@live.com"
             class="col-span-4 md:col-span-1 relative px-4 py-2 group/copy text-black bg-sky-300 rounded-lg grid place-content-center"
@@ -1053,7 +940,7 @@ c74 -94 91 -125 68 -125 -5 0 -40 39 -77 86 l-68 87 -5 -69 c-4 -52 -9 -69
 
    
     <script src="js/copybutton.js"></script>
-    <script src="js/downloadCV.js"></script>
+    <script src="js/video.js"></script>
 
   </body>
 </html>
