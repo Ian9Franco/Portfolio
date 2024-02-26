@@ -842,6 +842,19 @@ video {
   opacity: 1;
 }
 @media (min-width: 768px) {
+
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .col-span-2,
+  .md\:col-span-1,
+  .md\:col-span-2,
+  .md\:col-span-3,
+  .md\:col-span-6 {
+    grid-column: span 1;
+  };
+
   .md\:top-0 {
     top: 0;
   }
@@ -898,3 +911,4 @@ video {
     line-height: 1.75rem;
   }
 }
+
