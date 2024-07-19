@@ -39,6 +39,10 @@ body {
   height: 200px; /* El doble del tamaño original, ajusta según sea necesario */
   border-radius: 100%; /* Mantiene la forma redonda */
 }
+.small-icon {
+  width: 45px; /* Ajusta el ancho según tu preferencia */
+  height: auto; /* Mantén la proporción original de la altura */
+}
 
 
 /*dropdown*/
@@ -245,6 +249,16 @@ video {
 [hidden] {
   display: none;
 }
+
+.profile-image {
+  width: 100px; /* Ajusta el ancho según tus necesidades */
+  height: 100px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover; /* Esto asegura que la imagen se mantenga proporcionada */
+  border-radius: 50%; /* Para que sea redonda */
+  object-position: center top; /* Mueve el enfoque hacia arriba */
+}
+
+
 *,
 :before,
 :after {
