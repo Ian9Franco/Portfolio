@@ -34,13 +34,13 @@ body {
   line-height: inherit;
 }
 
-.profile-image.size-adjusted {
+.-image.siprofileze-adjusted {
   width: 200px; /* El doble del tamaño original, ajusta según sea necesario */
   height: 200px; /* El doble del tamaño original, ajusta según sea necesario */
   border-radius: 100%; /* Mantiene la forma redonda */
 }
 .small-icon {
-  width: 45px; /* Ajusta el ancho según tu preferencia */
+  width: 40px; /* Ajusta el ancho según tu preferencia */
   height: auto; /* Mantén la proporción original de la altura */
 }
 
@@ -251,14 +251,20 @@ video {
 }
 
 .profile-image {
-  width: 100px; /* Ajusta el ancho según tus necesidades */
-  height: 100px; /* Ajusta la altura según tus necesidades */
-  object-fit: cover; /* Esto asegura que la imagen se mantenga proporcionada */
-  border-radius: 50%; /* Para que sea redonda */
-  object-position: center top; /* Mueve el enfoque hacia arriba */
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center top;
 }
 
-
+/* Media query para escritorio */
+@media (min-width: 768px) {
+  .profile-image {
+    width: 180px; /* Ajusta el ancho para escritorio */
+    height: 180px; /* Ajusta la altura para escritorio */
+  }
+}
 *,
 :before,
 :after {
