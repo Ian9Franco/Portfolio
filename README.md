@@ -3,7 +3,7 @@
 
 ## About Me
 
-Hello! I'm Ian Pontorno, a Front-End developer passionate about web design and programming. This repository contains the source code for my personal portfolio website, where I showcase my skills, projects, and contact information.
+Hello! I'm Ian Pontorno, a Full-Stack developer passionate about web design and programming. This repository contains the source code for my personal portfolio website, where I showcase my skills, projects, and contact information.
 
 ## What's Inside
 
