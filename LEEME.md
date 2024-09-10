@@ -3,7 +3,7 @@
 
 ## Sobre mí
 
-¡Hola! Soy Ian Pontorno, un desarrollador Front-End apasionado por el diseño web y la programación. Este repositorio contiene el código fuente de mi sitio web de portafolio personal, donde muestro mis habilidades, proyectos e información de contacto.
+¡Hola! Soy Ian Pontorno, un desarrollador Full-Stack apasionado por el diseño web y la programación. Este repositorio contiene el código fuente de mi sitio web de portafolio personal, donde muestro mis habilidades, proyectos e información de contacto.
 
 ## Qué incluye mi portafolio
 
