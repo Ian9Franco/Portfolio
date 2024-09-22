@@ -32,9 +32,9 @@ I created this portfolio using:
 4. **Projects**: A showcase of my recent work, including descriptions and links
 5. **Skills**: An overview of my technical abilities, including:
    - Backend: JavaScript, Java, Python, Powershell
-   - Frameworks: Node.js, Spring Boot, Swagger, Express.js
+   - Frameworks: Node.js, Spring Boot, Swagger, Express.js, Next.js
    - Frontend: HTML5, CSS, Bootstrap, React, Tailwind
-   - Databases and Version Control: Git, MongoDB, MySQL, Docker
+   - Databases and Version Control: Git, MongoDB, MySQL, Docker, Firebase
    - Tools: Google Sheets, SAP, Slack, Power BI, Adobe Express, Excel, Canva, Postman
 6. **Contact**: How to reach me via email and Microsoft Teams
 

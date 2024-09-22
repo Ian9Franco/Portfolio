@@ -32,9 +32,9 @@ Creé este portafolio utilizando:
 4. **Proyectos**: Una muestra de mis trabajos recientes, incluyendo descripciones y enlaces
 5. **Habilidades**: Un resumen de mis capacidades técnicas, incluyendo:
    - Backend: JavaScript, Java, Python, Powershell
-   - Frameworks: Node.js, Spring Boot, Swagger, Express.js
+   - Frameworks: Node.js, Spring Boot, Swagger, Express.js, Next.js
    - Frontend: HTML5, CSS, Bootstrap, React, Tailwind
-   - Bases de datos y Control de Versiones: Git, MongoDB, MySQL, Docker
+   - Bases de datos y Control de Versiones: Git, MongoDB, MySQL, Docker, Firebase
    - Herramientas: Google Sheets, SAP, Slack, Power BI, Adobe Express, Excel, Canva, Postman
 6. **Contacto**: Cómo contactarme por correo electrónico y Microsoft Teams
 

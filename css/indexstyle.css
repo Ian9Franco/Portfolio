@@ -43,6 +43,11 @@ body {
   width: 40px; /* Ajusta el ancho según tu preferencia */
   height: auto; /* Mantén la proporción original de la altura */
 }
+li:nth-child(5) .small-icon {
+  width: 25px; /* Ajusta el tamaño a tu gusto */
+  height: auto;
+}
+
 
 
 /*dropdown*/
@@ -932,3 +937,30 @@ video {
   }
 }
 
+.skill-item {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #1e293b; /* bg-slate-900 */
+  border: 1px solid #334155; /* border-slate-700 */
+  border-radius: 0.375rem; /* rounded-md */
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.skill-name {
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.875rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
